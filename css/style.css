@@ -1,0 +1,270 @@
+:root {
+    --black-bkg: #222222;
+    --pink-bkg: #F1E4E6;
+    --pink-color: #F16D7F;
+    --sales-bkg: #4e4544;
+    --text-color: #FFFFFF;
+    --gray-text-color: #9F9F9F;
+    --card-bgk: #F8F8F8;
+    --card-text: #5D5D5D;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: var(--black-bkg);
+}
+
+.header__wrp {
+    display: flex;
+    align-items: center;
+    min-height: 75px;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin: 0 41px 0 0;
+}
+
+.header__nav {
+    display: none;
+}
+
+.header__menu-list {
+    display: flex;
+    align-items: center;
+}
+
+.header__burger {
+    border: none;
+    background-color: transparent;
+}
+
+.header__link {
+    margin: 0 0 0 33px;
+}
+
+.brand {
+    display: flex;
+}
+
+.brand__title-wrp {
+    flex-grow: 1;
+    background-color: var(--pink-bkg);
+    padding: 0 0 0 92px;
+    display: flex;
+    align-items: center;
+}
+
+.brand__img {
+    height: 765px;
+    width: 800px;
+}
+
+.brand__title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.brand__title-lower {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.brand__title-pink {
+    color: var(--pink-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.sales__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sales__item {
+    height: 260px;
+    width: 360px;
+    background-color: var(--sales-bkg);
+}
+
+.sales__item--women {
+    background-image: url(../Img/women-sales.jpg);
+}
+
+.sales__item--man {
+    background-image: url(../Img/men-sales.jpg);
+}
+
+.sales__item--kids {
+    background-image: url(../Img/kids-sales.jpg);
+}
+
+.sales__item--shoes {
+    background-image: url(../Img/shoes-sales.jpg);
+    width: 100%;
+}
+
+.products__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.products__item {
+    height: 582px;
+    width: 360px;
+}
+
+.sales__wrp {
+    padding: 63px;
+}
+
+.sales__item--shoes {
+    margin-top: 30px;
+    height: 180px;
+}
+
+.sales__item-title {
+    text-align: center;
+    color: var(--pink-color);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+
+.sales__item-text {
+    padding-top: 105px;
+    text-align: center;
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.sales__item-text-shoes {
+    padding-top: 65px;
+    text-align: center;
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.products__wrp {
+    padding: 34px;
+}
+
+.products__title {
+
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+
+.products__sub-title {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    margin-bottom: 48px;
+    text-align: center;
+    color: var(--gray-text-color);
+}
+
+.products__item {
+    background-color: var(--card-bgk);
+    margin-bottom: 30px;
+}
+
+.products__item-title {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 25px 0px 13px 18px;
+}
+
+.products__item-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    padding: 0px 19px 13px 18px;
+    color: var(--card-text);
+}
+
+.products__item-price {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    padding: 0px 0px 0px 18px;
+    color: var(--pink-color);
+}
+
+.advantages {
+    background-color: var(--black-bkg);
+}
+
+.advantages__list {
+    display: flex;
+    align-items: center;
+    min-height: 341px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.advantages__item-title {    
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--text-color);
+    padding: 28px 0px 18px 0px;
+}
+
+.advantages__item-text {
+    width: 340px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+}
+
+.advantages__item {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 360px;
+    flex-direction: column;
+}
