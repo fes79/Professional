@@ -7,6 +7,7 @@
     --gray-text-color: #9F9F9F;
     --card-bgk: #F8F8F8;
     --card-text: #5D5D5D;
+    --placeholder: #B1B1B1;
 }
 
 body {
@@ -228,6 +229,12 @@ body {
     padding: 34px;
 }
 
+.products__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .products__title {
     font-size: 30px;
     font-weight: 400;
@@ -440,7 +447,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 10px;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .form__subscribe-text {
@@ -449,6 +456,7 @@ body {
     font-weight: 400;
     line-height: 19px;
     font-weight: normal;
+    margin-bottom: 32px;
     text-transform: uppercase;
 }
 
@@ -486,4 +494,162 @@ body {
 
 .instagram {
     background-color: white;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.button__basket {
+    position: relative;
+}
+
+.basket__value {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: var(--pink-color);
+    cursor: pointer;
+}
+
+.registration__heading {
+    min-height: 148px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #F8F3F4;
+    padding-left: 230px;
+}
+
+.registration_heading-title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: var(--pink-color);
+}
+
+.registration__data {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-bottom: 96px;
+}
+
+.loyalty__list-item {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.loyalty__heading {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.loyalty__description-text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.loyalty__description {
+    width: 650px;
+}
+
+.registration__form {
+    width: 360px;
+}
+
+.registration__button {
+    min-height: 50px;
+    min-width: 167px;
+    border: #FF6A6A solid;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: var(--text-color);
+    background-color: var(--pink-color);
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.form__explanations {
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.email {
+    height: 45px;
+    width: 100%;
+    border: #A4A4A4 solid;
+    margin-bottom: 20px;
+}
+
+.password {
+    height: 45px;
+    width: 100%;
+    border: #A4A4A4 solid;
+}
+
+.login__heading {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding-bottom: 20px;
+    padding-top: 33px;
+}
+
+.first__name {
+    height: 45px;
+    width: 100%;
+    border: #A4A4A4 solid;
+    margin-bottom: 20px;
+}
+
+.last__name {
+    height: 45px;
+    width: 100%;
+    border: #A4A4A4 solid;
+    margin-bottom: 20px;
+}
+
+.names__heading {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding-bottom: 20px;
+}
+
+.subscribe__button {
+    min-height: 50px;
+    min-width: 100px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: var(--text-color);
+    background-color: var(--pink-color);
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border-radius: 0pc 30pc 30pc 0pc;
+}
+
+.subscribe__input {
+    height: 50px;
+    width: 220px;
+    border: #A4A4A4 solid;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #E1E1E1;
+    border-radius: 30pc 0pc 0pc 30pc;
+    padding-left: 20px;
 }
