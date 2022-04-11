@@ -8,6 +8,7 @@
     --card-bgk: #F8F8F8;
     --card-text: #5D5D5D;
     --placeholder: #B1B1B1;
+    --nav-text: #6F6E6E;
 }
 
 body {
@@ -32,6 +33,7 @@ body {
     align-items: center;
     min-height: 75px;
     justify-content: space-between;
+    position: relative;
 }
 
 .header__logo {
@@ -39,7 +41,57 @@ body {
 }
 
 .header__nav {
-    display: none;
+    position: absolute;
+    /* display: none; */
+    top: 100%;
+    left: 100%;
+    z-index: 1;
+    width: 100%;
+    height: 1000px;
+    background-color: var(--text-color);
+    padding-left: 33px;
+    padding-top: 37px;
+}
+
+.close__icon {
+    position: absolute;
+    transform: translateX(250px);
+    top: 20px;
+}
+
+.header__nav-list {
+    padding-bottom: 20px;
+}
+
+.header__nav-title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.nav-item__title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: var(--pink-color);
+}
+
+.nav-item__item {
+    margin-left: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--nav-text);
+    padding-top: 12px;
+}
+
+.nav-item__item:hover,
+.nav-item__item:focus {
+    color: var(--pink-color);
+    cursor: pointer;
 }
 
 .header__menu-list {
@@ -47,6 +99,7 @@ body {
     align-items: center;
     justify-content: space-around;
     width: 170px;
+    margin-left: 33px;
 }
 
 .header__loop {
@@ -55,7 +108,8 @@ body {
     position: relative;
 }
 
-.button__loop:hover {
+.button__loop:hover,
+.button__loop:focus {
     fill: var(--pink-color);
     cursor: pointer;
 }
@@ -65,7 +119,13 @@ body {
     background-color: transparent;
 }
 
-.button__burger:hover {
+.header__burge:hover+.header__nav,
+.header__burge:focus+.header__nav {
+    display: block;
+}
+
+.button__burger:hover,
+.button__burger:focus {
     fill: var(--pink-color);
     cursor: pointer;
 }
@@ -75,7 +135,8 @@ body {
     background-color: transparent;
 }
 
-.button__person:hover {
+.button__person:hover,
+.button__person:focus {
     fill: var(--pink-color);
     cursor: pointer;
 }
@@ -85,7 +146,8 @@ body {
     background-color: transparent;
 }
 
-.button__basket:hover {
+.button__basket:hover,
+.button__basket:focus {
     fill: var(--pink-color);
     cursor: pointer;
 }
