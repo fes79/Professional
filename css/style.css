@@ -119,8 +119,12 @@ body {
     background-color: transparent;
 }
 
-.header__menu__burger:hover+.header__nav,
-.header__menu__burger:focus+.header__nav {
+.header__menu__burger:hover +.header__nav,
+.header__menu__burger:focus +.header__nav {
+    display: block;
+}
+
+.header__nav:hover {
     display: block;
 }
 
@@ -146,10 +150,9 @@ body {
     background-color: transparent;
 }
 
-.button__basket:hover,
-.button__basket:focus {
-    fill: var(--pink-color);
-    cursor: pointer;
+.products__button-wrp:hover,
+.products__button-wrp:focus {
+    border: solid var(--pink-color);
 }
 
 .brand {
@@ -491,12 +494,9 @@ body {
 .quote__text {
     width: 360px;
     text-align: center;
-    font-family: Lato;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
 }
 
 .qoute__text-italic {
@@ -555,6 +555,7 @@ body {
 .icon {
     padding: 7px;
 }
+
 
 .instagram {
     background-color: white;
@@ -647,6 +648,14 @@ body {
     margin-bottom: 60px;
 }
 
+.registration__button:hover,
+.registration__button:focus {
+    border: #FF6A6A solid;
+    color: var(--pink-color);
+    background-color: var(--text-color);
+    cursor: pointer;
+}
+
 .form__explanations {
     margin-top: 15px;
     margin-bottom: 40px;
@@ -684,12 +693,25 @@ body {
     padding-left: 17px;
 }
 
+.input:hover,
+.input:active,
+.input:focus {
+    border: var(--black-bkg) solid;
+}
+
 .last__name {
     height: 45px;
     width: 100%;
     border: #A4A4A4 solid;
     margin-bottom: 20px;
     padding-left: 17px;
+}
+
+.radio:hover,
+.radio:active,
+.radio:focus {
+    cursor: pointer;
+    border: var(--black-bkg) solid;
 }
 
 .names__heading {
@@ -706,12 +728,19 @@ body {
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
-    letter-spacing: 0em;
     color: var(--text-color);
     background-color: var(--pink-color);
     margin-top: 20px;
     margin-bottom: 60px;
     border-radius: 0pc 30pc 30pc 0pc;
+}
+
+.subscribe__button:hover,
+.subscribe__button:focus {
+    border: #FF6A6A solid;
+    color: var(--pink-color);
+    background-color: #EFEFEF;
+    cursor: pointer;
 }
 
 .subscribe__input {
