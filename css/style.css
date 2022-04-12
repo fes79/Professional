@@ -137,6 +137,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
+  font-style: normal;
   color: #6F6E6E;
   padding-top: 12px;
 }
@@ -242,6 +243,7 @@ body {
   font-size: 48px;
   font-weight: 900;
   line-height: 58px;
+  font-style: normal;
   text-transform: uppercase;
 }
 
@@ -249,6 +251,7 @@ body {
   font-size: 32px;
   font-weight: 700;
   line-height: 38px;
+  font-style: normal;
   text-transform: uppercase;
   display: block;
 }
@@ -304,6 +307,7 @@ body {
   font-size: 24px;
   font-weight: 700;
   line-height: 29px;
+  font-style: normal;
   text-transform: uppercase;
 }
 
@@ -314,6 +318,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
+  font-style: normal;
   text-transform: uppercase;
 }
 
@@ -324,6 +329,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
+  font-style: normal;
   text-transform: uppercase;
 }
 
@@ -357,6 +363,7 @@ body {
   font-size: 30px;
   font-weight: 400;
   line-height: 36px;
+  font-style: normal;
   text-align: center;
 }
 
@@ -364,6 +371,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
+  font-style: normal;
   margin-bottom: 48px;
   text-align: center;
   color: #9F9F9F;
@@ -379,6 +387,7 @@ body {
   font-size: 13px;
   font-weight: 400;
   line-height: 16px;
+  font-style: normal;
   padding: 25px 0px 13px 18px;
   text-transform: uppercase;
 }
@@ -387,15 +396,16 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
+  font-style: normal;
   padding: 0px 19px 13px 18px;
   color: #5D5D5D;
 }
 
 .products__item-price {
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 19px;
+  font-style: normal;
   padding: 0px 0px 0px 18px;
   color: #F16D7F;
 }
@@ -432,12 +442,13 @@ body {
 .products__button {
   min-height: 48px;
   min-width: 212px;
-  border: #FF6A6A solid;
+  border: #F16D7F solid;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
+  font-style: normal;
   letter-spacing: 0em;
-  color: #F26376;
+  color: #F16D7F;
   background-color: white;
   margin-top: 20px;
   margin-bottom: 60px;
@@ -466,8 +477,9 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
+  font-style: normal;
   text-align: left;
-  color: white;
+  color: #FFFFFF;
   position: absolute;
   top: 30%;
   left: 40%;
@@ -489,6 +501,7 @@ body {
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
+  font-style: normal;
   color: #FFFFFF;
   padding: 28px 0px 18px 0px;
 }
@@ -498,8 +511,9 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 17px;
+  font-style: normal;
   text-align: center;
-  color: #FBFBFB;
+  color: #F1E4E6;
 }
 
 .advantages__item {
@@ -548,6 +562,7 @@ body {
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
+  font-style: normal;
 }
 
 .qoute__text-italic {
@@ -559,6 +574,7 @@ body {
   font-size: 24px;
   font-weight: 400;
   line-height: 19px;
+  font-style: normal;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -570,7 +586,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 19px;
-  font-weight: normal;
+  font-style: normal;
   margin-bottom: 32px;
   text-transform: uppercase;
 }
@@ -582,7 +598,8 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
-  color: var(--text-color);
+  font-style: normal;
+  color: #FFFFFF;
   background-color: #F16D7F;
   margin-top: 20px;
   margin-bottom: 60px;
@@ -629,6 +646,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
+  font-style: normal;
   text-align: left;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -645,7 +663,7 @@ body {
 }
 
 .instagram {
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 .icon:hover {
@@ -659,10 +677,11 @@ body {
 .registration__button {
   min-height: 50px;
   min-width: 167px;
-  border: #FF6A6A solid;
+  border: #F16D7F solid;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
+  font-style: normal;
   letter-spacing: 0em;
   color: #FFFFFF;
   background-color: #F16D7F;
@@ -672,7 +691,7 @@ body {
 
 .registration__button:hover,
 .registration__button:focus {
-  border: #FF6A6A solid;
+  border: #F16D7F solid;
   color: #F16D7F;
   background-color: #FFFFFF;
   cursor: pointer;
@@ -681,13 +700,13 @@ body {
 .form__explanations {
   margin-top: 15px;
   margin-bottom: 40px;
-  color: #B1B1B1;
+  color: #9F9F9F;
 }
 
 .email {
   height: 45px;
   width: 100%;
-  border: #A4A4A4 solid;
+  border: #9F9F9F solid;
   margin-bottom: 20px;
   padding-left: 17px;
 }
@@ -703,6 +722,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
+  font-style: normal;
   padding-bottom: 20px;
   padding-top: 33px;
 }
@@ -710,7 +730,7 @@ body {
 .first__name {
   height: 45px;
   width: 100%;
-  border: #A4A4A4 solid;
+  border: #9F9F9F solid;
   margin-bottom: 20px;
   padding-left: 17px;
 }
@@ -724,7 +744,7 @@ body {
 .last__name {
   height: 45px;
   width: 100%;
-  border: #A4A4A4 solid;
+  border: #9F9F9F solid;
   margin-bottom: 20px;
   padding-left: 17px;
 }
@@ -740,6 +760,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
+  font-style: normal;
   padding-bottom: 20px;
 }
 
@@ -749,7 +770,7 @@ body {
   display: flex;
   justify-content: left;
   align-items: center;
-  background-color: #F8F3F4;
+  background-color: #F8F8F8;
   padding-left: 230px;
 }
 
@@ -774,6 +795,7 @@ body {
   font-size: 24px;
   font-weight: 400;
   line-height: 29px;
+  font-style: normal;
   padding-bottom: 17px;
 }
 
@@ -781,6 +803,7 @@ body {
   font-size: 24px;
   font-weight: 400;
   line-height: 29px;
+  font-style: normal;
   text-transform: uppercase;
 }
 
@@ -788,6 +811,7 @@ body {
   font-size: 24px;
   font-weight: 400;
   line-height: 29px;
+  font-style: normal;
   padding-top: 22px;
   padding-bottom: 22px;
 }

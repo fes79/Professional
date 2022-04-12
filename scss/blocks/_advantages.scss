@@ -11,20 +11,16 @@
 }
 
 .advantages__item-title {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 24px;
+    @include font(20px, 400, 24px);
     color: $text-color;
     padding: 28px 0px 18px 0px;
 }
 
 .advantages__item-text {
     width: 340px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
+    @include font(14px, 400, 17px);
     text-align: center;
-    color: #FBFBFB;
+    color: $pink-bkg;
 }
 
 .advantages__item {

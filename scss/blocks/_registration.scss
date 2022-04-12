@@ -6,10 +6,8 @@
 .registration__button {
     min-height: 50px;
     min-width: 167px;
-    border: #FF6A6A solid;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
+    border: $pink-color solid;
+    @include font(16px, 400, 19px);
     letter-spacing: 0em;
     color: $text-color;
     background-color: $pink-color;
@@ -19,7 +17,7 @@
 
 .registration__button:hover,
 .registration__button:focus {
-    border: #FF6A6A solid;
+    border: $pink-color solid;
     color: $pink-color;
     background-color: $text-color;
     cursor: pointer;
@@ -28,13 +26,13 @@
 .form__explanations {
     margin-top: 15px;
     margin-bottom: 40px;
-    color: #B1B1B1;
+    color: $gray-text-color;
 }
 
 .email {
     height: 45px;
     width: 100%;
-    border: #A4A4A4 solid;
+    border: $gray-text-color solid;
     margin-bottom: 20px;
     padding-left: 17px;
 }
@@ -47,9 +45,7 @@
 }
 
 .login__heading {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
+    @include font(16px, 400, 19px);
     padding-bottom: 20px;
     padding-top: 33px;
 }
@@ -57,7 +53,7 @@
 .first__name {
     height: 45px;
     width: 100%;
-    border: #A4A4A4 solid;
+    border: $gray-text-color solid;
     margin-bottom: 20px;
     padding-left: 17px;
 }
@@ -71,7 +67,7 @@
 .last__name {
     height: 45px;
     width: 100%;
-    border: #A4A4A4 solid;
+    border: $gray-text-color solid;
     margin-bottom: 20px;
     padding-left: 17px;
 }
@@ -84,9 +80,7 @@
 }
 
 .names__heading {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19px;
+    @include font(16px, 400, 19px);
     padding-bottom: 20px;
 }
 
@@ -96,7 +90,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    background-color: #F8F3F4;
+    background-color: $card-bgk;
     padding-left: 230px;
 }
 

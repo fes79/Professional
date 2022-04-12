@@ -57,9 +57,7 @@
 
 .header__nav__list__chapter__list__item {
     margin-left: 21px;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 17px;
+    @include font(14px, 400, 17px);
     color: $nav-text;
     padding-top: 12px;
 }
