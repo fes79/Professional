@@ -1,0 +1,118 @@
+
+.registration__form {
+    width: 360px;
+}
+
+.registration__button {
+    min-height: 50px;
+    min-width: 167px;
+    border: #FF6A6A solid;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: $text-color;
+    background-color: $pink-color;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.registration__button:hover,
+.registration__button:focus {
+    border: #FF6A6A solid;
+    color: $pink-color;
+    background-color: $text-color;
+    cursor: pointer;
+}
+
+.form__explanations {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: #B1B1B1;
+}
+
+.email {
+    height: 45px;
+    width: 100%;
+    border: #A4A4A4 solid;
+    margin-bottom: 20px;
+    padding-left: 17px;
+}
+
+.password {
+    height: 45px;
+    width: 100%;
+    border: #A4A4A4 solid;
+    padding-left: 17px;
+}
+
+.login__heading {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding-bottom: 20px;
+    padding-top: 33px;
+}
+
+.first__name {
+    height: 45px;
+    width: 100%;
+    border: #A4A4A4 solid;
+    margin-bottom: 20px;
+    padding-left: 17px;
+}
+
+.input:hover,
+.input:active,
+.input:focus {
+    border: $black-bkg solid;
+}
+
+.last__name {
+    height: 45px;
+    width: 100%;
+    border: #A4A4A4 solid;
+    margin-bottom: 20px;
+    padding-left: 17px;
+}
+
+.radio:hover,
+.radio:active,
+.radio:focus {
+    cursor: pointer;
+    border: $black-bkg solid;
+}
+
+.names__heading {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding-bottom: 20px;
+}
+
+.registration__heading {
+    min-height: 148px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #F8F3F4;
+    padding-left: 230px;
+}
+
+.registration_heading-title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: $pink-color;
+}
+
+.registration__data {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-bottom: 96px;
+}

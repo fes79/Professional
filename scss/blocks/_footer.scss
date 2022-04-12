@@ -1,0 +1,41 @@
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 223px;
+    padding-left: 230px;
+    background-color: $black-bkg;
+}
+
+.footer__social-icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__rights {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: $card-bgk;
+}
+
+.footer__social-icons {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.icon {
+    padding: 7px;
+}
+
+
+.instagram {
+    background-color: white;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
