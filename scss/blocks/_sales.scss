@@ -1,0 +1,63 @@
+.sales__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sales__item {
+    width: 360px;
+    background-color: $sales-bkg;
+}
+
+.sales__item--women {
+    background-image: url(../Img/women-sales.jpg);
+    min-height: 260px;
+}
+
+.sales__item--man {
+    background-image: url(../Img/men-sales.jpg);
+    min-height: 260px;
+}
+
+.sales__item--kids {
+    background-image: url(../Img/kids-sales.jpg);
+    min-height: 260px;
+}
+
+.sales__item--shoes {
+    background-image: url(../Img/shoes-sales.jpg);
+    width: 100%;
+    min-height: 180px;
+}
+
+.sales__wrp {
+    padding: 63px;
+}
+
+.sales__item--shoes {
+    margin-top: 30px;
+    height: 180px;
+}
+
+.sales__item-title {
+    text-align: center;
+    color: $pink-color;
+    @include font(24px, 700, 29px);
+    text-transform: uppercase;
+}
+
+.sales__item-text {
+    padding-top: 105px;
+    text-align: center;
+    color: $text-color;
+    @include font(16px, 400, 19px);
+    text-transform: uppercase;
+}
+
+.sales__item-text-shoes {
+    padding-top: 65px;
+    text-align: center;
+    color: $text-color;
+    @include font(16px, 400, 19px);
+    text-transform: uppercase;
+}

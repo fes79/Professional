@@ -1,0 +1,36 @@
+.advantages {
+    background-color: $black-bkg;
+}
+
+.advantages__list {
+    display: flex;
+    align-items: center;
+    min-height: 341px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.advantages__item-title {
+    @include font(20px, 400, 24px);
+    color: $text-color;
+    padding: 28px 0px 18px 0px;
+}
+
+.advantages__item-text {
+    width: 340px;
+    @include font(14px, 400, 17px);
+    text-align: center;
+    color: $pink-bkg;
+}
+
+.advantages__item {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 360px;
+    flex-direction: column;
+}
+
+.advantages__item-delivery-icon {
+    padding-top: 10px;
+}

@@ -1,0 +1,130 @@
+.products__button-wrp:hover,
+.products__button-wrp:focus {
+    border: solid $pink-color;
+}
+
+.products__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.products__item {
+    height: 582px;
+    width: 360px;
+}
+
+.products__wrp {
+    padding: 34px;
+}
+
+.products__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.products__title {
+    @include font(30px, 400, 36px);
+    text-align: center;
+}
+
+.products__sub-title {
+    @include font(14px, 400, 17px);
+    margin-bottom: 48px;
+    text-align: center;
+    color: $gray-text-color;
+}
+
+.products__item {
+    background-color: $card-bgk;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.products__item-title {
+    @include font(13px, 400, 16px);
+    padding: 25px 0px 13px 18px;
+    text-transform: uppercase;
+}
+
+.products__item-text {
+    @include font(14px, 400, 17px);
+    padding: 0px 19px 13px 18px;
+    color: $card-text;
+}
+
+.products__item-price {
+    @include font(16px, 400, 19px);
+    padding: 0px 0px 0px 18px;
+    color: $pink-color;
+}
+
+.product__overlay {
+    width: 100%;
+    min-height: 420px;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+}
+
+.products__button-wrp {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    height: 35px;
+    width: 120px;
+    border: white solid;
+    transform: translate(-50%, -50%);
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 11px;
+    cursor: pointer;
+}
+
+.button__wrp {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products__button {
+    min-height: 48px;
+    min-width: 212px;
+    border: $pink-color solid;
+    @include font(16px, 400, 19px);
+    letter-spacing: 0em;
+    color: $pink-color;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.products__button:hover {
+    background-color: #FF6A6A;
+    color: $text-color;
+}
+
+.products__button-wrp,
+.product__overlay {
+    display: none;
+}
+
+.products__item:hover .product__overlay,
+.products__item:hover .products__button-wrp {
+    display: block;
+}
+
+.img__product-button {
+    color: white;
+}
+
+.button__product-overlay {
+    @include font(14px, 400, 17px);
+    text-align: left;
+    color: $text-color;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
